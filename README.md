@@ -17,7 +17,6 @@ Dengan model ini, pelaku bisnis properti dapat melakukan estimasi harga secara l
 8. [Model Saving & Deployment]
 9. [Perbandingan Sebelum dan Sesudah ML (Bisnis)]
 10. [Kesimpulan dan Rekomendasi]
-11. [Penulis]
 
 ---
 

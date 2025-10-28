@@ -7,17 +7,17 @@ Dengan model ini, pelaku bisnis properti dapat melakukan estimasi harga secara l
 ---
 
 ## 📂 **Daftar Isi**
-1. [Business Understanding](#1-business-understanding)
-2. [Data Understanding](#2-data-understanding)
-3. [Data Preparation](#3-data-preparation)
-4. [Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
-5. [Modeling (Baseline Regression)](#5-modeling-baseline-regression)
-6. [Modeling (Machine Learning)](#6-modeling-machine-learning)
-7. [Hyperparameter Tuning](#7-hyperparameter-tuning)
-8. [Model Saving & Deployment](#8-model-saving--deployment)
-9. [Perbandingan Sebelum dan Sesudah ML (Bisnis)](#9-perbandingan-sebelum-dan-sesudah-ml-bisnis)
-10. [Kesimpulan dan Rekomendasi](#10-kesimpulan-dan-rekomendasi)
-11. [Penulis](#penulis)
+1. [Business Understanding]
+2. [Data Understanding]
+3. [Data Preparation]
+4. [Exploratory Data Analysis (EDA)]
+5. [Modeling (Baseline Regression)]
+6. [Modeling (Machine Learning)]
+7. [Hyperparameter Tuning]
+8. [Model Saving & Deployment]
+9. [Perbandingan Sebelum dan Sesudah ML (Bisnis)]
+10. [Kesimpulan dan Rekomendasi]
+11. [Penulis]
 
 ---
 
@@ -155,14 +155,6 @@ Beberapa algoritma diuji menggunakan *5-Fold Cross Validation*.
 ## 🧠 **7. Hyperparameter Tuning**
 
 Dilakukan *GridSearchCV* pada model KNN dan Stacking-KNN untuk menemukan parameter optimal.
-
-### **Parameter Grid**
-```python
-{
- 'n_neighbors': [3, 5, 7, 9],
- 'weights': ['uniform', 'distance'],
- 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute']
-}
 
 Kesimpulan sebelum memakai dan sesudah memakai machine learning
 Sebelum Machine Learning, perusahaan hanya mengandalkan model linier sederhana dengan tingkat kesalahan hingga 30% dan penjelasan data 61%.
